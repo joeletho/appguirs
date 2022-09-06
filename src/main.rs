@@ -9,6 +9,6 @@ mod ui;
 mod clipboard;
 
 fn main() {
-    Application::create("ImGuiWindow-rs")
+    Application::create("AppGuiRs")
         .run();
 }
