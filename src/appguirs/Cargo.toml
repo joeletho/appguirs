@@ -1,0 +1,12 @@
+[package]
+name = "appguirs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+image = "0.24.3"
+clipboard = "0.5"
+glium = { version = "0.31", default-features = true }
+imgui = { path = "third-party/imgui-rs/imgui", features = ["tables-api"] }
+imgui-glium-renderer = { path = "third-party/imgui-rs/imgui-glium-renderer" }
+imgui-winit-support = { path = "third-party/imgui-rs/imgui-winit-support" }
