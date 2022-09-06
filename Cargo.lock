@@ -830,6 +830,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "my_appguirs"
+version = "0.1.0"
+dependencies = [
+ "appguirs",
+]
+
+[[package]]
 name = "nanorand"
 version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1130,13 +1137,6 @@ dependencies = [
  "crc32fast",
  "flate2",
  "miniz_oxide",
-]
-
-[[package]]
-name = "prioritize"
-version = "0.1.0"
-dependencies = [
- "appguirs",
 ]
 
 [[package]]
