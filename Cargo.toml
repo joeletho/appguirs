@@ -1,13 +1,11 @@
 [package]
-name = "imgui-window-rs"
+name = "appguirs"
 version = "0.1.0"
 edition = "2021"
 authors = ["Joel: brolgedu@gmail.com"]
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [[bin]]
-name = "imgui_window_rs"
+name = "appguirs"
 path = "src/main.rs"
 
 [dependencies]
